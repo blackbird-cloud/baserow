@@ -6249,20 +6249,20 @@
     source-map "0.5.6"
     tsconfig "^7.0.0"
 
-"@vue2-flow/background@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@vue2-flow/background/-/background-7.0.0.tgz#f7213d93f9c56d0a9278545a7d3e71cc5fc89b87"
-  integrity sha512-Heco/nTpG9Cn0h7cSTeWH2CeabJ9oXAIirw/5YNXDGNC6PAEKhDzy2iZ7g8zlwNinkMbxrlXsoaK3fsdaXtcNw==
+"@vue2-flow/background@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@vue2-flow/background/-/background-8.0.0.tgz#39d656281bd052067758fbe813d48fceb6b289bd"
+  integrity sha512-gEEz4iGKSrkuhZRVy67QsDLEiK1n+3wGnfC6+wYefs1Ylc9lAqKAWkq58IHKmxZ2bVt369bQgliiXBqLyLFUbA==
 
-"@vue2-flow/controls@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@vue2-flow/controls/-/controls-7.0.0.tgz#eb20a32c03263eb3cda2178c117efd7d60ce937d"
-  integrity sha512-EBAh0m6hXQCyl+y63iT1Yu9RlIH+onvBWxVLa5gEjFrLyeJ8P7tRCAsvJ41a+cBWF7B5KSJmtBwv5wga1dNf2w==
+"@vue2-flow/controls@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@vue2-flow/controls/-/controls-8.0.0.tgz#cce7bbef8a6e3f78d03b3262301679babb11188f"
+  integrity sha512-lGdzoh/+xalUttrvHNnILjaankGnHoGfTdZdhLegAvUN32AwIvJRxlBjE46JqimHKmNXdoOAFUd0Z0g1/YgBmA==
 
-"@vue2-flow/core@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@vue2-flow/core/-/core-0.7.0.tgz#3ace46c38db13107e4337af192d81152fd21824b"
-  integrity sha512-/6oBvvTgwVBLQ3aXTQyENwvd/L1pl3IbDHIJHruzv1t/frt5C5fvuUVuANEmwzPO/1MynEAzXJ7OEqQXLHKrWg==
+"@vue2-flow/core@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@vue2-flow/core/-/core-0.8.0.tgz#fdf4012482f7326e55307c3864968f99c5a368db"
+  integrity sha512-Rz3Jg5fz8J9M0TiKtaS8J4drylLYh36r8oWRHETfv9Mo2KwfLCwhe8muHPvlWER5ignROgej2GamIukTYhQ1JA==
   dependencies:
     "@vueuse/core" "^10.5.0"
     d3-drag "^3.0.0"
@@ -16325,17 +16325,22 @@ pkg-types@^1.3.0:
     mlly "^1.7.4"
     pathe "^2.0.1"
 
-playwright-core@1.40.1, playwright-core@>=1.2.0:
+playwright-core@1.56.1:
+  version "1.56.1"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.56.1.tgz#24a66481e5cd33a045632230aa2c4f0cb6b1db3d"
+  integrity sha512-hutraynyn31F+Bifme+Ps9Vq59hKuUCz7H1kDOcBs+2oGguKkWTU50bBWrtz34OUWmIwpBTWDxaRPXrIXkgvmQ==
+
+playwright-core@>=1.2.0:
   version "1.40.1"
   resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.40.1.tgz#442d15e86866a87d90d07af528e0afabe4c75c05"
   integrity sha512-+hkOycxPiV534c4HhpfX6yrlawqVUzITRKwHAmYfmsVreltEl6fAZJ3DPfLMOODw0H3s1Itd6MDCWmP1fl/QvQ==
 
 playwright@^1.14.0:
-  version "1.40.1"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.40.1.tgz#a11bf8dca15be5a194851dbbf3df235b9f53d7ae"
-  integrity sha512-2eHI7IioIpQ0bS1Ovg/HszsN/XKNwEG1kbzSDDmADpclKc7CyqkHw7Mg2JCz/bbCxg25QUPcjksoMW7JcIFQmw==
+  version "1.56.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.56.1.tgz#62e3b99ddebed0d475e5936a152c88e68be55fbf"
+  integrity sha512-aFi5B0WovBHTEvpM3DzXTUaeN6eN0qWnTkKx4NQaH4Wvcmc153PdaY2UBdSYKaGYw+UyWXSVyxDUg5DoPEttjw==
   dependencies:
-    playwright-core "1.40.1"
+    playwright-core "1.56.1"
   optionalDependencies:
     fsevents "2.3.2"
 
